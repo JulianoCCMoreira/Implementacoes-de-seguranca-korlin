@@ -6,7 +6,7 @@ Este é um projeto que foi apresentado na segunda edição da Tech Week da Conta
 ## Sobre o projeto
 O projeto foi desenvolvido com o framework Spring Boot e com a linguagem de programação Kotlin. Possui depedências para fazer a conexão com uma instância de banco de dados MySQL. 
 
-### Como baixar o projeto
+### Como baixar e rodar o projeto
 Para clonar o projeto basta executar o seguinte comando no seu terminal:
 ```sh
 git clone https://github.com/JulianoCCMoreira/Spring-Security-Kotlin.git
@@ -15,6 +15,11 @@ Depois baixar as dependências com:
 ```
 mvn clean package
 ```
+E para rodar basta executar o seguinte comando em seu teminal:
+```
+mvn spring-boot:run
+```
+> Se usar váriaveis de ambiente deve rodar destar forma.
 
 ### Como configurar o projeto
 Basta ter uma instância do MySQL rodando em sua máquina e exportar as váriáveis de ambiente. Em minha máquina eu tenho uma base de dados MySQL com as seguintes configurações:
